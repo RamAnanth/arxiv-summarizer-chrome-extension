@@ -1,0 +1,19 @@
+// manifest.json
+{
+    "manifest_version": 3,
+    "name": "Arxiv Summarizer",
+    "description": "Arxiv Paper Summary generator using Cohere",
+    "version": "1.0",
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup/popup.html"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["https://arxiv.org/*"],
+        "js": ["scripts/content.js"]
+      }
+    ]
+  }
+  
