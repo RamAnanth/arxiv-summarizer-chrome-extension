@@ -2,6 +2,7 @@
 
 A simple Chrome Extension that uses AI to generate one line TL;DR for articles on Arxiv based on their abstracts
 
+![Screenshot](cohere_summary.png)
 
 This demo uses the Cohere API. [Cohere](https://cohere.ai/) provides access to advanced Large Language Models and NLP tools through one easy-to-use API. 
 
